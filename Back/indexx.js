@@ -10,7 +10,7 @@ const server = http.createServer((req,res) =>{
     console.log(req.url);
     console.log(req.headers);
     res.writeHead(200,{"Content-Type":"text/plain"})
-    res.end("I am the Best Giga brain");
+    res.end("I am the Best Giga");
         })
 
 //WE need a port on which our server will listen the request and send back the response
