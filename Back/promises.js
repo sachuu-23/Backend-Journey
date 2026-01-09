@@ -34,3 +34,4 @@ divideFunction(10,0).then(result=>{
     .catch(error=>{
         console.log(error,'is our error');
     })
+
