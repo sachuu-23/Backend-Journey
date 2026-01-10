@@ -26,8 +26,6 @@ function divideFunction(num1,num2){
        }
     })
 }
-
-
 divideFunction(10,0).then(result=>{
     console.log(result);
 })

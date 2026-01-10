@@ -1,6 +1,5 @@
 //callback function is a function which takes another function as an parameter, and then executes that other function when the current function gets executed
 
-
 const fs = require('fs');
 function person(names, callback){
     console.log(`Hello ${names}`);
@@ -11,7 +10,7 @@ function MyAddress(){
 }
 
 person("Sachin Kumar",MyAddress);
-console.log("hiiiiiii")
+console.log("hi")
 
 fs.readFile("callback.txt","utf8",(err,data)=>{
     if(err){

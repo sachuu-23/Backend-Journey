@@ -16,7 +16,7 @@ const server = http.createServer((req,res)=>{
     }
     else{
         res.writeHead(404,{"Content-Type":"text/plain"});
-        res.end("This page is not found");
+        res.end("This Routes/page does ");
     }
 });
 
