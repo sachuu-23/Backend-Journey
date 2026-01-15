@@ -26,10 +26,6 @@ function divideFunction(num1,num2){
        }
     })
 }
-divideFunction(10,0).then(result=>{
-    console.log(result);
-})
-    .catch(error=>{
-        console.log(error,'is our error');
-    })
-
+divideFunction(10,5)
+ .then((result) => console.log("The result is :",result))
+  .catch((error) => console.log("Catch the error",error));
