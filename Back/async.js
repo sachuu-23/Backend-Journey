@@ -31,10 +31,6 @@ async function Divideit(num1,num2){
 
 async function mainfunction(){
     // console.log(await Divideit(100,5));
-    const result = await Divideit(10,5);
-    if(result === null){
-      console.log("Divison has failed");
-    }
+    console.log(await Divideit(10,0));
 }
-const ans = mainfunction();
-console.log(ans);
+mainfunction();
